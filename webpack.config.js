@@ -1,6 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
+const BundleAnalyzerPlugin  = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = {
     entry: {
@@ -47,4 +47,6 @@ module.exports = {
               analyzerMode: "static", // the report outputs to an HTML file in the dist folder
           })
     ]
-}
+};
+
+// module.exports = config;
