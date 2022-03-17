@@ -38,6 +38,9 @@ module.exports = {
         ]
     },
     mode: 'development',
+    devServer: {
+        static: "./dist",
+      },
     plugins: [
         new webpack.ProvidePlugin({
             $: "jquery",
