@@ -39,7 +39,7 @@ module.exports = {
     },
     mode: 'development',
     devServer: {
-        static: "./dist",
+        static: "./",
       },
     plugins: [
         new webpack.ProvidePlugin({
